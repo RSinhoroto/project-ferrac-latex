@@ -3,11 +3,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Opções:
-%  - Graduação: bacharelado|engenharia|licenciatura
+%  - Graduação: bacharelado|engenharia|licenciatura|mkt
 %  - Pós-graduação: [qualificacao], mestrado|doutorado, ppca|ppginf
 
-% \documentclass[engenharia]{UnB-CIC}%
-\documentclass[qualificacao,mestrado,ppca]{UnB-CIC}%
+\documentclass[mkt]{UnB-CIC}%
+%\documentclass[qualificacao,mestrado,ppca]{UnB-CIC}%
 
 \usepackage{pdfpages}% incluir PDFs, usado no apêndice
 
@@ -15,17 +15,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Informações do Trabalho
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\orientador{\prof \dr Guilherme Novaes Ramos}{CIC/UnB}%
-%\coorientador{\prof \dr José Ralha}{CIC/UnB}
-\coordenador[a]{\prof[a] \dr[a] Ada Lovelace}{Bibliothèque universelle de Genève}%
-\diamesano{24}{dezembro}{2014}%
+\orientador{\prof \dr Marcus Chaffim}{CIC/UnB}%
+\coorientador{\prof \dr Alexandre Zaghetto}{CIC/UnB}
+\coordenador{\prof \dr Gulherme N. Ramos}{Universidade de Brasília}%
+\diamesano{12}{dezembro}{2019}%
 
-\membrobanca{\prof \dr Donald Knuth}{Stanford University}%
-\membrobanca{\dr Leslie Lamport}{Microsoft Research}%
+\membrobanca{\prof \dr Lamanha}{CIC/UnB}%
+\membrobanca{\dr Vidalicio}{CIC/UnB}%
 
-\autor{Guilherme N.}{Ramos}%
+\autor{Rafaela S.}{Lima}%
 
-\titulo{UnB-CIC: Uma classe em LaTeX para textos do Departamento de Ciência da Computação}%
+\titulo{Controle de Braço Robótico por Reconhecimento de Orientação Facial}%
 
 \palavraschave{LaTeX, metodologia científica, trabalho de conclusão de curso}%
 \keywords{LaTeX, scientific method, thesis}%
@@ -37,10 +37,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}%
     \capitulo{1_Introducao}{Introdução}%
-    \capitulo{2_UnB-CIC}{A Classe \unbcic}%
-    \capitulo{3_TCC}{Trabalho de Conclusão de Curso}%
-    \capitulo{4_Apresentacao}{Apresentações}%
+    \capitulo{2_Rev-Biblio}{Revisão Bibliográfica}%
+    \capitulo{3_Solucao}{Solução Proposta}%
+    \capitulo{4_Resultados}{Resultados Experimentais}%
+    \capitulo{5_Conclusoes}{Conclusões}%
 
-    \apendice{Apendice_Fichamento}{Fichamento de Artigo Científico}%
+    %\apendice{Apendice_Fichamento}{Fichamento de Artigo Científico}%
     \anexo{Anexo1}{Documentação Original \unbcic\ (parcial)}%
 \end{document}%
